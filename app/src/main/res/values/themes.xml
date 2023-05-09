@@ -3,7 +3,15 @@
     <style name="Base.Theme.PracticeAndroidKotlin" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/black</item>
     </style>
 
     <style name="Theme.PracticeAndroidKotlin" parent="Base.Theme.PracticeAndroidKotlin" />
+    <style name="MaterialAlertDialog_Rounded" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/DialogCorner</item>
+    </style>
+    <style name="DialogCorner">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
 </resources>
