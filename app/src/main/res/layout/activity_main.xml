@@ -24,4 +24,21 @@
             android:text="Internet" />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/searchRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SearchRecycler" />
+
+        <Button
+            android:id="@+id/multiRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MultiRecycler" />
+    </LinearLayout>
+
 </LinearLayout>
